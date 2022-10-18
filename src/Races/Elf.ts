@@ -1,6 +1,6 @@
 import Race from './Race';
 
-export default class Dwarf extends Race {
+export default class Elf extends Race {
   public maxLifePoints: number;
   static numberOfInstances = 0;
 
@@ -9,8 +9,8 @@ export default class Dwarf extends Race {
     dexterity: number,
   ) {
     super(name, dexterity);
-    this.maxLifePoints = 80;
-    Dwarf.incrementRacesInstances();
+    this.maxLifePoints = 99;
+    Elf.incrementRacesInstances();
   }
 
   static incrementRacesInstances() {
