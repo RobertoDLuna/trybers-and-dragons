@@ -1,4 +1,4 @@
-// abrir pr
+// abrindo PR
 
 function getRandomInt(min: number, max: number) {
   const newMin = Math.ceil(min);
