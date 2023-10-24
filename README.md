@@ -89,37 +89,6 @@ Antes de prosseguir com a missão, é muito importante saber que:
 <br>
 </details>
 
-<details close>
-  <summary><strong>🔎 O que será verificado</strong></summary>
-
-  > :dragon_face: Para as classe que herdam de Race:
-  - A classe `Dwarf` existe;
-  - A classe `Dwarf` herda de `Race`;
-  - O atributo `name` da classe `Dwarf` pode ser lido;
-  - O atributo `dexterity` da classe `Dwarf` pode ser lido;
-  - O método `createdRacesInstances` retorna o número correto de instâncias criadas da classe `Dwarf`;
-  - O atributo `maxLifePoints` da classe `Dwarf` existe e é igual a 80;
-  - A classe `Elf` existe;
-  - A classe `Elf` herda de `Race`;
-  - O atributo `name` da classe `Elf` pode ser lido;
-  - O atributo `dexterity` da classe `Elf` pode ser lido;
-  - O método `createdRacesInstances` retorna o número correto de instâncias criadas da classe `Elf`;
-  - O atributo `maxLifePoints` da classe `Elf` existe e é igual a 99;
-  - A classe `Halfling` existe;
-  - A classe `Halfling` herda de `Race`;
-  - O atributo `name` da classe `Halfling` pode ser lido;
-  - O atributo `dexterity` da classe `Halfling` pode ser lido;
-  - O método `createdRacesInstances` retorna o número correto de instâncias criadas da classe `Halfling`;
-  - O atributo `maxLifePoints` da classe `Halfling` existe e é igual a 60;
-  - A classe `Orc` existe;
-  - A classe `Orc` herda de `Race`;
-  - O atributo `name` da classe `Orc` pode ser lido;
-  - O atributo `dexterity` da classe `Orc` pode ser lido;
-  - O método `createdRacesInstances` retorna o número correto de instâncias criadas da classe `Orc`;
-  - O atributo `maxLifePoints` da classe `Orc` existe e é igual a 74;
-
-</details>
-
 ---
 
 ### 3 - Crie a interface `Energy`
@@ -150,19 +119,6 @@ Sua próxima missão é tornar possível o uso destes dois tipos de energia:  *"
 > - `EnergyType` também deve ser exportado, mas este de forma explícita (`export`).
 
 <br>
-</details>
-
-<details close>
-  <summary><strong>🔎 O que será verificado</strong></summary>
-
-  > :dragon_face: Para a interface Energy:
-  - É possível criar uma variável com o tipo `EnergyType` e atribuir a ela o valor `'mana'`;
-  - É possível criar uma variável com o tipo `EnergyType` e atribuir a ela o valor `'stamina'`;
-  - É possível criar uma variável com o tipo da interface `Energy` e atribuir a ela o valor `{ amount: 10, type_: 'stamina'}`;
-  - É possível criar uma variável com o tipo da interface `Energy` e atribuir a ela o valor `{ amount: 45, type_: 'mana'}`;
-  - Não é possível criar uma variável com o tipo `EnergyType` e atribuir a ela um valor diferente de `'mana'` ou `'stamina'`;
-  - Não é possível criar uma variável com o tipo da interface `Energy` sem atribuir a ela um `amount`;
-  - Não é possível criar uma variável com o tipo da interface `Energy` sem atribuir a ela um `type_`.
 </details>
 
 ---
@@ -207,20 +163,6 @@ Para que você tenha sucesso nesta *quest*, é importante saber que:
 <br>
 </details>
 
-<details close>
-  <summary><strong>🔎 O que será verificado</strong></summary>
-  <br>
-
-  > :dragon_face: Para a classe Archetype:
-  - A classe `Archetype` existe;
-  - A classe `Archetype` é abstrata;
-  - O atributo `name` da classe `Archetype` pode ser lido;
-  - O atributo `name` da classe `Archetype` não pode ser alterado;
-  - O atributo `special` da classe `Archetype` pode ser lido;
-  - O atributo `cost` da classe `Archetype` pode ser lido;
-  - O tipo do retorno do método `energyType` é `EnergyType`;
-</details>
-
 ---
 
 ### 5 - Crie classes que herdam de `Archetype`
@@ -253,32 +195,6 @@ Para isto, atenção às instruções a seguir:
 > - Não se esqueça de implementar o método `createdArchetypeInstances` nas classes herdeiras;
 
 <br>
-</details>
-
-<details close>
-  <summary><strong>🔎 O que será verificado</strong></summary>
-
-  > :dragon_face: Para as classes que herdam de Archetype:
-  - A classe `Mage` existe;
-  - A classe `Mage` herda de `Archetype`;
-  - O atributo `name` da classe `Mage` pode ser lido;
-  - O método `energyType` da Classe `Mage` existe e retorna um `EnergyType`;
-  - O método `createdArchetypeInstances` deve retornar o número correto de instâncias criadas da classe `Mage`;
-  - A classe `Necromancer` existe;
-  - A classe `Necromancer` herda de `Archetype`;
-  - O atributo `name` da classe `Necromancer` pode ser lido;
-  - O atributo `energyType` da classe `Necromancer` pode ser lido;
-  - O método `createdArchetypeInstances` deve retornar o número correto de instâncias criadas da classe `Necromancer`;
-  - A classe `Ranger` existe;
-  - A classe `Ranger` herda de `Archetype`;
-  - O atributo `name` da classe `Ranger` pode ser lido;
-  - O atributo `energyType` da classe `Ranger` pode ser lido;
-  - O método `createdArchetypeInstances` deve retornar o número correto de instâncias criadas da classe `Ranger`;
-  - A classe `Warrior` existe;
-  - A classe `Warrior` herda de `Archetype`;
-  - O atributo `name` da classe `Warrior` pode ser lido;
-  - O atributo `energyType` da classe `Warrior` pode ser lido;
-  - O método `createdArchetypeInstances` deve retornar o número correto de instâncias criadas da classe `Warrior`;
 </details>
 
 ---
@@ -318,22 +234,6 @@ Para fixar bem esse conceito, preparamos para você a missão especial de criar 
 > - A interface `Fighter` deve ser importada dentro deste arquivo e exportada também de forma padrão, como feito em requisitos anteriores.
 
 <br>
-</details>
-
-<details close>
-  <summary><strong>🔎 O que será verificado</strong></summary>
-
-  > :dragon_face: Para a interface Fighter:
-  - A interface `Fighter` existe;
-  - A interface `Fighter` pode ser implementada corretamente;
-  - A interface `Fighter` possui o atributo `lifePoints`;
-  - A interface `Fighter` possui o atributo `strength`;
-  - A interface `Fighter` possui o atributo `defense`;
-  - A interface `Fighter` possui o método `attack()`, que recebe um `enemy` do tipo `Fighter`;
-  - A interface `Fighter` possui o método `special()`, que recebe um `enemy` do tipo `Fighter`
-  - A interface `Fighter` possui o método `receiveDamage()`, que recebe um `attackPoints` do tipo number;
-  - O atributo `energy` deverá ser do tipo `Energy`, definido no arquivo `src/Energy.ts`;
-  - A interface `Fighter` possui o método `levelUp()`, que não recebe parâmetros nem retorna nada;
 </details>
 
 ---
@@ -409,24 +309,6 @@ As dicas para completar essa *quest* são:
 <br>
 </details>
 
-<details close>
-  <summary>🔎 O que será verificado</strong></summary>
-
-  > :dragon_face: Para a classe Character:
-  - A classe `Character` existe;
-  - A classe `Character` implementa a interface `Fighter`;
-  - `Character` possui uma `Race`;
-  - `Character` possui um `Archetype`;
-  - `Character` possui um atributo `lifePoints`, que pode ser lido, mas não pode ser setado;
-  - `Character` possui um atributo `strength`, que pode ser lido, mas não pode ser setado;
-  - `Character` possui um atributo `defense`, que pode ser lido, mas não pode ser setado;
-  - `Character` possui um atributo `energy`, que pode ser lido, mas não pode ser setado nem ter um de seus valores internos alterados;
-  - `Character` possui um atributo `dexterity`, que pode ser lido, mas não pode ser setado;
-  - `Character` pode subir de nível através do método `levelUp`, e seus atributos (`amount`, `maxLifePoints`, `strength`, `dexterity`, `defense`) terão um incremento;
-  - `Character` pode receber danos através do método `receiveDamage`;
-  - `Character1` pode atacar `Character2`;
-</details>
-
 ---
 
 ### 8 - Crie a interface `SimpleFighter`
@@ -455,17 +337,6 @@ As dicas para completar essa *quest* são:
 > - A interface `SimpleFighter` deve ser importada dentro de `src/Fighter/index.ts` e deve ser exportada de forma explícita (`export { SimpleFighter }`), como feito em requisitos anteriores.
 
 <br>
-</details>
-
-<details close>
-  <summary><strong>🔎 O que será verificado</strong></summary>
-
-  > :dragon_face: Para a interface SimpleFighter:
-  - A interface `SimpleFighter` existe;
-  - A interface `SimpleFighter` possui o atributo `lifePoints`;
-  - A interface `SimpleFighter` possui o atributo `strength`;
-  - A interface `SimpleFighter` possui o método `attack`, que recebe um `enemy` do tipo `SimpleFighter`;
-  - A interface `SimpleFighter` possui o método `receiveDamage`, que recebe um `attackPoints` do tipo `number`;
 </details>
 
 ---
@@ -509,19 +380,6 @@ O que você deve saber para seguir em frente:
 <br>
 </details>
 
-<details close>
-  <summary><strong>🔎 O que será verificado</strong></summary>
-
-  > :dragon_face: Para a classe Monster:
-  - A classe `Monster` existe;
-  - A classe `Monster` implementa a interface `SimpleFighter`;
-  - `Monster` possui um atributo `lifePoints`, que pode ser lido, mas não pode ser setado;
-  - `Monster` possui um atributo `strength`, que pode ser lido, mas não pode ser setado;
-  - `Monster` pode receber danos através do método `receiveDamage`, fazendo com que seus `lifePoints` diminuam;
-  - `Monster` pode atacar um `Character`, e o `Character` receberá dano;
-  - `Character` pode atacar um `Monster`, e o `Monster` receberá de dano;
-</details>
-
 ---
 
 ### 10 - Crie a classe `PVP`
@@ -559,15 +417,6 @@ Brincadeira! Estamos aqui para te ajudar e por isso trazemos abaixo algumas dica
 <br>
 </details>
 
-<details close>
-  <summary>🔎 O que será verificado</strong></summary>
-
-  > :dragon_face: Para a classe PVP:
-  - A classe `PVP` existe e pode ser criada uma nova instância, passando dois `Characters` lutadores;
-  - A classe `PVP` pode ser utilizada onde a classe `Battle` é esperada e uma personagem que chamou várias vezes o levelUp e possui melhores atributos tem maiores chances de vencer;
-  - A classe `PVP` pode receber tanto dois `Characters` quanto duas instâncias de uma implementação diferente de `Fighter`;
-</details>
-
 ---
 
 ## Requisitos Bônus
@@ -600,15 +449,6 @@ Antes de prosseguir para essa nova batalha, leia atentamente as dicas abaixo !!!
 <br>
 </details>
 
-<details close>
-  <summary><strong>🔎 O que será verificado</strong></summary>
-
-  > :dragon_face: Para a classe PVE:
-  - A classe `PVE` existe e se pode ser criada uma nova instância, passando um `Character` e um array com um `Monster`;
-  - A classe `PVE` pode ser utilizada onde a classe `Battle` é esperada. Além disso, uma personagem (`Character`) que chamou várias vezes o método `levelUp` e possui melhores atributos tem maiores chances de vencer uma luta contra somente um `Monster`, enquanto uma personagem com atributos menores perde uma luta contra diversos `Monsters`;
-  - A classe `PVE` pode receber tanto `Character` e um array com um `Monster` quanto implementações diferentes de `Fighter` e `SimpleFighter` que não são `Character` nem `Monster`;
-</details>
-
 ---
 
 ### 12 - Crie a classe `Dragon`
@@ -634,15 +474,6 @@ Nesta *quest*, você deve **criar a classe `Dragon`**, cuidando para garantir qu
 > - Para que os testes funcionem corretamente, a classe `Dragon` deve ser exportada de forma padrão ( com `export default`).
 
 <br>
-</details>
-
-<details close>
-  <summary><strong>🔎 O que será verificado</strong></summary>
-
-  > :dragon_face: Para a classe Dragon:
-  - A classe `Dragon` existe;
-  - A classe `Dragon` herda de `Monster`;
-  - `Dragon` deve ter 999 no valor do atributo `lifePoints`;
 </details>
 
 ---
@@ -692,17 +523,6 @@ Algumas dicas se fazem necessárias para completar sua última missão no mundo 
 > - Para que os testes funcionem corretamente, os objetos/métodos criados em `src/index.ts` devem ser exportados como explicado no requisito;
 
 <br>
-</details>
-
-<details close>
-  <summary><strong>🔎 O que será verificado</strong></summary>
-
-  > :dragon_face: Para a criação de objetos no arquivo index:
-  - Existem 3 objetos do tipo `Character` no arquivo `index`, exportados como `player1`, `player2` e `player3` e o método `levelUp` foi chamado algumas vezes em `player1`
-  - Existem 2 objetos do tipo `Monster` no arquivo `index`, exportados como `monster1`, `monster2`, sendo que o objeto `monster2` é um `Dragon`;
-  - Existe um objeto do tipo `PVP` (com os `Characters` `player2` e `player3`), exportados no arquivo index como `pvp` e nele *NÃO* foi executado o método `pvp.fight`;
-  - Existe um objeto do tipo `PVE` (com o `Character` `player1` e com os `Monsters` `monster1` e `monster2`), exportado no arquivo `index` como `pve` e nele *NÃO* foi executado o método `pve.fight`;
-  - Existe uma função chamada `runBattles`, que recebe um `array de Battles` e chama em seu interior o método `battle.fight`;
 </details>
 
 ---
