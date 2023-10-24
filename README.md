@@ -57,24 +57,6 @@ Para que você tenha sucesso nesta *quest*, é importante saber que:
 
 <br>
 </details>
-
-<details close>
-  <summary><strong> 🔎 O que será verificado</strong></summary>
-
-  > :dragon_face: Para a classe Race:
-  - A classe `Race` existe;
-  - A classe `Race` é abstrata;
-  - O método `maxLifePoints` da classe `Race` é abstrato;
-  - O método `maxLifePoints` ao ser implementado retorna um valor numérico;
-  - O atributo `name` da classe `Race` pode ser lido;
-  - O atributo `name` da classe `Race` *NÃO* pode ser alterado;
-  - O atributo `dexterity` da classe `Race` pode ser lido;
-  - O atributo `dexterity` da classe Race *NÃO* pode ser redefinido;
-  - O método `createdRacesInstances` deve existir e ser estático;
-  - O método `createdRacesInstances` deve lançar um erro com a mensagem "Not implemented".
-
-</details>
-
 ---
 
 ### 2 - Crie classes que herdam de `Race`
