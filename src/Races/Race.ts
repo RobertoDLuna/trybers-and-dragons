@@ -1,4 +1,3 @@
-// exemplo artigo git
 export default abstract class Race {
   private _name: string;
   private _dexterity: number;
@@ -17,6 +16,7 @@ export default abstract class Race {
   }
 
   static createdRacesInstances(): number {
+    // eslint-disable-next-line quotes, @typescript-eslint/quotes
     throw new Error("Not implemented");
   }
 
