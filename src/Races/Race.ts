@@ -1,3 +1,4 @@
+// exemplo artigo git
 export default abstract class Race {
   private _name: string;
   private _dexterity: number;
@@ -6,18 +7,18 @@ export default abstract class Race {
     this._name = name;
     this._dexterity = dexterity;
   }
-  
+
   get name() {
     return this._name;
   }
-  
+
   get dexterity() {
     return this._dexterity;
   }
-  
+
   static createdRacesInstances(): number {
-    throw new Error('Not implemented');
+    throw new Error("Not implemented");
   }
-  
+
   abstract get maxLifePoints(): number;
 }
